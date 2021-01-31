@@ -24,11 +24,7 @@ using_pop(["Africa", "Asia", "Europe", "North America", "South America", "Oceani
  end
  pop_with_args(["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"])
    
- def using_unshift(bouroughs_in_nyc,new_neighborhood)
-   bouroughs_in_nyc.unshift(new_neighborhood)
-  end
-  using_unshift(["Brooklyn", "Queens", "Manhattan", "Bronx"],"Staten Island")
-
+ 
  
 
   
