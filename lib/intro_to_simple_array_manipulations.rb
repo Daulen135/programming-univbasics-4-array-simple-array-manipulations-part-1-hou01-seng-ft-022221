@@ -33,7 +33,7 @@ using_pop(["Africa", "Asia", "Europe", "North America", "South America", "Oceani
 def shift_with_args(ice_cream_brands)
   ice_cream_brands.shift(2)
 end
-shift_with_args
+shift_with_args()
   
 
 describe "shift_with_args" do 
