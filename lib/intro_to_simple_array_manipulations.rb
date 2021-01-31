@@ -24,7 +24,15 @@ using_pop(["Africa", "Asia", "Europe", "North America", "South America", "Oceani
  end
  pop_with_args(["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"])
    
- 
- 
+ def using_shift(my_favorite_cities)
+   
+ describe "using_shift" do 
+  before(:each) do 
+    @my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
+    @im_so_over_this_city = using_shift(@my_favorite_cities)
+  end
+  it "takes in an argument of an array and uses the shift method to remove the first item and return it" do 
+    expect(@im_so_over_this_city).to eq("Lagos")
+  end
 
   
