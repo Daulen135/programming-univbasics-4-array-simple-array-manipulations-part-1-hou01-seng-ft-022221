@@ -26,7 +26,9 @@ using_pop(["Africa", "Asia", "Europe", "North America", "South America", "Oceani
    
  def using_shift(my_favorite_cities)
    
-   lil_bub = famous_cats.shift
+   my_favorite_cities.shift
+ end
+ using_shift()
 
  describe "using_shift" do 
   before(:each) do 
