@@ -29,7 +29,10 @@ using_pop(["Africa", "Asia", "Europe", "North America", "South America", "Oceani
  pop_with_args(["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"])
    
  def using_unshift(bouroughs_in_nyc)
-   
+   bouroughs_in_nyc.unshift("Staten Island")
+  end
+  using_unshift()
+
  describe "using_unshift" do 
   before(:each) do 
     bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
