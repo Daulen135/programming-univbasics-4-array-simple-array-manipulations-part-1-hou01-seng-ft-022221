@@ -12,7 +12,10 @@ end
 using_push(["red","orange","yellow","green","blue","indigo"],"violet")
 
 def using_unshift(bouroughs_in_nyc,new_neighborhood)
-bouroughs_in_nyc
+bouroughs_in_nyc.unshift(new_neighborhood)
+
+end
+using_unshift()
 describe "using_unshift" do 
   before(:each) do 
     bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
