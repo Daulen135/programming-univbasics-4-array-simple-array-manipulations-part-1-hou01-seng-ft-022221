@@ -28,7 +28,9 @@ using_pop(["Africa", "Asia", "Europe", "North America", "South America", "Oceani
    
    my_favorite_cities.shift
  end
- using_shift()
+ using_shift(["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"])
+
+
 
  describe "using_shift" do 
   before(:each) do 
