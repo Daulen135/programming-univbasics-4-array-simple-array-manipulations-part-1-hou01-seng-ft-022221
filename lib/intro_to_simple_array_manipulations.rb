@@ -15,7 +15,8 @@ def using_unshift(bouroughs_in_nyc,new_neighborhood)
 bouroughs_in_nyc.unshift(new_neighborhood)
 
 end
-using_unshift()
+using_unshift(["Brooklyn", "Queens", "Manhattan", "Bronx"],"Staten Island")
+
 describe "using_unshift" do 
   before(:each) do 
     bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
