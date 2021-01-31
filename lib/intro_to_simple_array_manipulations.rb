@@ -24,21 +24,10 @@ using_pop(["Africa", "Asia", "Europe", "North America", "South America", "Oceani
   
  
  def pop_with_args(dog_breeds)
-   small_dogs[2,3]=dog_breeds.pop
+   small_dogs(2)=dog_breeds.pop
  end
- pop_with_args()
+ pop_with_args(["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"])
    
- describe "pop_with_args" do
-  before(:each) do 
-    @dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
-    @small_dogs = pop_with_args(@dog_breeds)
-  end 
-  it "takes in an argument of an array and uses the pop method with an argument of 2 to remove the last two array items and return them" do 
-    expect(@small_dogs).to eq(["Chihuahua", "Shiba Inu"])
-  end 
+ 
 
-  it "decreases the length of the array by 2" do
-    expect(@dog_breeds.size).to eq(2)
-  end
-end 
   
