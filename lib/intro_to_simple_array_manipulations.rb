@@ -26,7 +26,7 @@ using_pop(["Africa", "Asia", "Europe", "North America", "South America", "Oceani
    
  def using_shift(my_favorite_cities)
    
-   my_favorite_cities.shift
+ my_favorite_cities.shift
  end
  using_shift(["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"])
 
