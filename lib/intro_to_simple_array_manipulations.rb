@@ -33,22 +33,9 @@ using_pop(["Africa", "Asia", "Europe", "North America", "South America", "Oceani
 def shift_with_args(ice_cream_brands)
   ice_cream_brands.shift(2)
 end
-shift_with_args()
+shift_with_args(["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"])
   
 
-describe "shift_with_args" do 
-  before(:each) do 
-    @ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-    @brands_removed = shift_with_args(@ice_cream_brands)
-  end
-  
-  it "takes in an argument of an array and uses the shift method with an argument of 2 to remove and return the first 2 items from the array" do 
-    expect(@brands_removed).to eq(["Blue Bell Creameries", "Ben & Jerry's"])
-  end
 
-  it "decreases the length of the array by 2" do 
-    expect(@brands_removed.size).to eq(2)
-  end
-end
  
   
