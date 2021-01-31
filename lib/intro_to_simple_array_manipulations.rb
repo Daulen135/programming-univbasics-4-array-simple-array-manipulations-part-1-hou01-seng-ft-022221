@@ -17,10 +17,10 @@ bouroughs_in_nyc.unshift(new_neighborhood)
 end
 using_unshift(["Brooklyn", "Queens", "Manhattan", "Bronx"],"Staten Island")
 
-def using_pop(continents,deleted_string)
+def using_pop(continents)
   deleted_string=continents.pop
 end
-using_pop(["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"],"Antarctica")
+using_pop(["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"])
   
   
   
