@@ -20,7 +20,7 @@ using_unshift(["Brooklyn", "Queens", "Manhattan", "Bronx"],"Staten Island")
 def using_pop(continents,deleted_string)
   deleted_string=continents.pop
 end
-using_pop()
+using_pop(["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"],"Antarctica")
   
   
   
