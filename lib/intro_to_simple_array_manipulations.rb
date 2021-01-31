@@ -24,7 +24,7 @@ using_pop(["Africa", "Asia", "Europe", "North America", "South America", "Oceani
   
  
  def pop_with_args(dog_breeds)
-   small_dogs(2)=dog_breeds.pop
+   small_dogs=dog_breeds.pop(2)
  end
  pop_with_args(["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"])
    
